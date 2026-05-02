@@ -31,6 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
+저장소 헌법 기반 게이트(모든 Plan에 적용):
+
+- **프로젝트 유형**: 이 저장소의 기본 가정은 `CLI`입니다. REST API 또는 GUI는 기본적으로 범위 밖입니다. 예외는 명시적 승인과 설계 문서가 필요합니다.
+- **테스트 우선**: 모든 계획 항목은 Test-First(TDD)를 따른다. 계획에 해당 기능의 테스트 항목을 명시해야 하며, 테스트는 구현 전에 작성되어야 한다.
+- **의존성 정당화**: 새로운 외부 의존성은 `Dependency justification`을 포함해야 한다(대안, 보안/라이선스 검토 포함).
+
 [Gates determined based on constitution file]
 
 ## Project Structure
