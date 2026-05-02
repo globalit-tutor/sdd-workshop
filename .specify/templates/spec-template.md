@@ -5,6 +5,8 @@
 **Status**: Draft  
 **Input**: User description: "$ARGUMENTS"
 
+> 헌법 제약: 본 프로젝트는 CLI 전용입니다. REST API나 GUI는 범위 밖입니다. 모든 기능은 Test-First(TDD)를 따라야 하며, 관련 테스트를 스펙에 포함해야 합니다.
+
 ## User Scenarios & Testing *(mandatory)*
 
 <!--
